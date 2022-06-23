@@ -4,7 +4,7 @@ firstNumber = Number(firstNumber)
 secondNumber = prompt("Enter second number: ");
 secondNumber = Number(secondNumber)
 
-operation = prompt("Pick one of the folloeing operations: +-*/");
+operation = prompt("Pick one of the following operations: +-*/");
 if (operation == '+'){
     result = firstNumber + secondNumber;
     alert(result);
